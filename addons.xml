@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.5">
+		
+  
+		<requires>
+			
+    
+			<import addon="xbmc.python" version="2.14.0"/>
+			
+    
+			<import addon="script.module.requests" version="2.18.4"/>
+			
+    
+			<import addon="script.module.beautifulsoup" version="3.2.1"/>
+			
+  
+		</requires>
+		
+  
+		<extension library="default.py" point="xbmc.python.script"/>
+		
+  
+		<extension point="xbmc.addon.metadata">
+			
+    
+			<summary lang="en">An interface to managing automatic episode downloads.</summary>
+			
+    
+			<description lang="en">Provides a nice interface for editing an XML file used by a cron-trigger script to search for and download new episodes of shows using the Transmission BitTorrent client.</description>
+			
+    
+			<platform>all</platform>
+			
+  
+		</extension>
+		
+  
+		<extension name="Corvust Addons" point="xbmc.addon.repository">
+			
+        
+			<info compressed="false">https://raw.githubusercontent.com/corvustkodi/repository.corvust/master/addons.xml</info>
+			
+        
+			<checksum>https://raw.githubusercontent.com/corvustkodi/repository.corvust/master/addons.xml.md5</checksum>
+			
+        
+			<datadir zip="true">https://raw.githubusercontent.com/corvustkodi/repository.corvust/master</datadir>
+			
+  
+		</extension>
+		
+
+	</addon>
+</addons>
