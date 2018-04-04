@@ -56,7 +56,7 @@ for source in sources:
 	oldFiles = os.listdir(source)
 	isUpToDate = False
 	for f in oldFiles:
-		if f != newName+'.zip':
+		if f != newName+'.zip' and f != newName+'.md5':
 			os.remove(os.path.join(source,f))
 		else:
 			isUpToDate = True
