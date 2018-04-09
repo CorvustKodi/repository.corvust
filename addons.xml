@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.5">
+	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.6">
 		
   
 		<requires>
