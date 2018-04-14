@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.6">
+	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.8">
 		
   
 		<requires>
@@ -21,13 +21,16 @@
 		<extension library="default.py" point="xbmc.python.script"/>
 		
   
+		<extension library="service.py" point="xbmc.service" start="startup"/>
+		
+  
 		<extension point="xbmc.addon.metadata">
 			
     
 			<summary lang="en">An interface to managing automatic episode downloads.</summary>
 			
     
-			<description lang="en">Provides a nice interface for editing an XML file used by a cron-trigger script to search for and download new episodes of shows using the Transmission BitTorrent client.</description>
+			<description lang="en">Provides a nice interface for setting up automatic downloads of your favourite legally availabe shows.</description>
 			
     
 			<platform>all</platform>
