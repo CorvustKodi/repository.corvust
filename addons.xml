@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="repository.corvust" name="Corvust Addons" provider-name="CorvustKodi" version="0.9.5">
+	<addon id="repository.corvust" name="Corvust Addons" provider-name="CorvustKodi" version="0.9.6">
 		
     
 		<extension name="Corvust Addons" point="xbmc.addon.repository">
