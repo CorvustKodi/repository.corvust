@@ -1,0 +1,4 @@
+Version 0.9.6
+	* Some structural changes
+Version 0.9.5
+        * Initial release.

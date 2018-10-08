@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+	<addon id="repository.corvust" name="Corvust Addons" provider-name="CorvustKodi" version="0.9.5">
+		
+    
+		<extension name="Corvust Addons" point="xbmc.addon.repository">
+			
+        
+			<info compressed="false">https://raw.githubusercontent.com/corvustkodi/repository.corvust/master/addons.xml</info>
+			
+        
+			<checksum>https://raw.githubusercontent.com/corvustkodi/repository.corvust/master/addons.xml.md5</checksum>
+			
+        
+			<datadir zip="true">https://raw.githubusercontent.com/corvustkodi/repository.corvust/master</datadir>
+			
+    
+		</extension>
+		
+    
+		<extension point="xbmc.addon.metadata">
+			
+        
+			<summary>Kodi Addons by Corvust</summary>
+			
+        
+			<description>This repository contains addons that are distributed for use in Corvust media centres.</description>
+			
+        
+			<disclaimer>The owners and submitters to this repository assume no responsibility for damages, data-loss, or frustration caused by the use of these addons. Use at your own risk.</disclaimer>
+			
+        
+			<platform>all</platform>
+			
+    
+		</extension>
+		
+
+	</addon>
 	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.9">
 		
   
