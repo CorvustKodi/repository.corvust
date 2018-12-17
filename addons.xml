@@ -37,7 +37,7 @@
 		
 
 	</addon>
-	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="0.9.9">
+	<addon id="script.slurpee" name="Slurpee" provider-name="CorvustKodi" version="1.0.0">
 		
   
 		<requires>
